@@ -1,0 +1,134 @@
+*{padding:0px;
+}
+body{
+	margin:0px;
+	background-image: url('../images/gray.jpg');
+}
+input{padding:2px;
+}
+
+.sign
+{
+font-size:15px; background-color:#79bc64;
+font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+font-weight: normal !important;
+text-rendering: optimizelegibility;
+background: -webkit-linear-gradient(top, #55AEAE, #436788);
+background-color: #4888AC;
+-webkit-box-shadow: inset 0 1px 1px #a4e388;
+border-color: #22596E #34648A #0A232B;
+border: 1px solid;
+-webkit-border-radius: 8px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+letter-spacing: 1px;
+position: relative;
+text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+height:40px;
+width:80px;
+}
+.sign1 {font-size:15px; background-color:#79bc64;
+font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+font-weight: normal !important;
+text-rendering: optimizelegibility;
+background: -webkit-linear-gradient(top, #55AEAE, #436788);
+background-color: #4888AC;
+-webkit-box-shadow: inset 0 1px 1px #a4e388;
+border-color: #22596E #34648A #0A232B;
+border: 1px solid;
+-webkit-border-radius: 8px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+letter-spacing: 1px;
+position: relative;
+text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+height:40px;
+width:176px;
+}
+button{margin: 0;}
+
+
+#wrapper{/*position:relative;*/
+height:450px;
+padding: 0px;
+}
+#signing{
+padding:10px;
+background-image: url('../images/darkgray.jpg');
+
+}
+
+.aside{
+padding:10px;
+background-image: url('../images/gray.jpg');	
+float:right;
+padding-right: 50px;
+}
+#top
+{
+
+	padding:10px;
+	background-image: url('../images/darkgray.jpg');
+	height: 40px;	
+}
+#bottom{
+
+}
+.box {
+	border-color: #bdc7d8;
+	-webkit-border-radius:5px; 
+	margin: 0;
+	height: 25px;
+}
+.box1 {
+	border-color: #bdc7d8;
+	-webkit-border-radius:5px; 
+	margin: 5;
+	height: 40px;
+}
+.um{
+	color:#fff;
+}
+.h{
+	font-family: 'ChunkFive Roman';
+	src: url('../fonts/Chunkfive.otf');
+	font-size: 30px;
+	padding-top: 5px;
+	font-weight: normal;
+	font-style: normal;
+}
+.light
+{
+	color: #ddd;
+}
+.dark{
+	color: #555;
+}
+a {
+	color: #ddd;
+	text-decoration: none;
+}
+a:hover
+{
+	color:#fff;
+	text-decoration: underline;
+}
+.r
+{
+	float:right;
+}
+.l
+{
+	float:left;
+}
+.cen{
+	text-align: center;
+}
+.m18{
+	font-size: 18px;
+}
+.d{
+	background-color: #F3F3F3;
+}

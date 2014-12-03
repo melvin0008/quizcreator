@@ -1,0 +1,289 @@
+*{ 
+margin:0px;
+padding:0px;
+}
+body{
+text-align:left;
+font-family:Arial;
+font-size:20px;
+display:-webkit-box;
+-webkit-box-pack:center;
+margin:0px;
+	background-image: url('../images/gray.jpg');
+}
+#time{float:left;
+color:#ddd;
+padding: 20px;
+}
+#wrapper{/*position:relative;*/
+height:665px;
+width: 100%;
+max-width:1460px;
+clear:both;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:0;
+
+}
+
+#logout{
+margin-right:50px;
+}
+
+#header{
+border:1;
+height:50px;
+background-image: url('../images/darkgray.jpg');
+}
+#content{
+	font-family: 'Roboto Light';
+	src: url('../fonts/Roboto-Light.ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+
+text-align:left;
+width:60%;
+padding:15px;
+padding-top: 5px;
+border:5px solid rgb(137, 129, 168);
+-webkit-border-radius: 20px;
+margin-left:300px;
+margin-right:300px;
+margin-bottom:50px;
+
+font-size:20px;
+width:1100px;
+
+
+}
+#out
+{
+	height:210px;
+}
+
+.ques 
+{ 
+
+	max-height:200px; 
+	 
+	overflow:auto; 
+	width:100%;
+	float:left;
+}
+.ques1 
+{ 
+
+	max-height:200px; 	 
+	width:100%;
+	float:left;
+}
+
+.aside {
+float:left;
+left:50px;
+top:150px;
+position:absolute;
+display:-webkit-box;
+}
+
+.button{padding:7px;
+font-size:20px;
+background-color: #939CB4;
+-webkit-border-radius: 15px;
+color:#fff;
+}
+ input{padding:10px;
+font-size:20px;
+}
+
+footer{
+display:-webkit-box;
+position:absolute; 
+padding:5px;
+font-size:30px;
+margin-left:500px;/*border:1px solid blue;*/
+}
+#copyright{
+display:-webkit-box;
+position:absolute; 
+width:300px;
+left:10px;
+font-size:15px;
+font-family:Arial;
+margin-top:20px;
+margin-left:500px;
+float: right;
+padding: 50px
+}
+#up
+{
+	margin-top: 70px;
+}
+.r {
+	float: right;
+}
+a {
+	color: #ddd;
+	text-decoration: none;
+}
+a:hover
+{
+	color:#fff;
+	text-decoration: underline;
+}
+
+.m15{
+	font-size: 15px;
+}
+.h{
+	font-family: 'ChunkFive Roman';
+	src: url('../fonts/Chunkfive.otf');
+	font-size: 30px;
+	padding-top: 5px;
+	color: #ddd;
+	font-weight: normal;
+	font-style: normal;
+	margin-left: 170px;
+}
+.answered
+{
+padding:7px;
+font-size:20px;
+background-color: #02113C;
+-webkit-border-radius: 15px;
+color:#fff;	
+}
+#next{
+	
+	  	margin-left: 480px;
+	     float:right;
+}
+
+.nav{
+	margin-top:10px;
+	background: -webkit-linear-gradient(top, #55AEAE, #436788);
+		background-color: #4888AC;
+		-webkit-box-shadow: inset 0 1px 1px #a4e388;
+		border-color: #22596E #34648A #0A232B;
+	     border: 1px solid;
+	     border-radius: 10px;
+	     font-size: 12px;
+	     width:80px;
+}
+.l{
+	float:left;
+}
+.r{
+	float: right;
+
+}
+.ml450{
+	margin-left: 630px;
+}
+.fontr{
+	font-family: 'Roboto Medium';
+	src: url('../fonts/Roboto-MediumItalic.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#options
+{
+	height:320px;
+	border: 1px solid;
+	width:99%;
+	clear: both;
+	padding-left: 10px;
+	border:5px solid rgb(137, 129, 168);
+-webkit-border-radius: 20px;
+}
+#opt1{
+	height: 75px;
+	padding-bottom: 5px;
+	overflow:auto; 
+
+}
+#opt2{
+	height: 75px;
+	padding-bottom: 5px;
+	overflow:auto; 
+
+}
+#opt3{
+	height: 75px;
+	padding-bottom: 5px;
+	overflow:auto; 
+
+}
+#opt4{
+	height: 75px;
+	padding-bottom: 5px;
+	overflow:auto; 
+
+}
+.enlarge
+{
+	
+	display:inline-block; 
+position: relative; 
+z-index: 0;
+margin:10px 40px 0 20px; 
+}
+.enlarge span{
+position:absolute;
+left: -9999px; 
+}
+.enlarge img{
+
+background-color:#eae9d4; 
+padding: 6px; 
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.enlarge:hover{
+z-index: 50; 
+cursor:pointer;
+}
+
+.enlarge:hover span{ 
+top: -80px; 
+left: -20px; 
+}
+
+/***Override the styling of images set in step 3 to make the frame smaller and the background darker***/
+.enlarge span img{
+padding: 2px; /*size of the frame*/
+background: #ccc; /*colour of the frame*/
+}
+/***Style the <span> containing the framed images and the caption***/
+.enlarge span{
+/**Style the frame**/
+padding: 10px; /*size of the frame*/
+background:#eae9d4; /*colour of the frame*/
+/*add a drop shadow to the frame*/
+-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+/*give the corners a curve*/
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius:8px;
+/**Style the caption**/
+font-family: 'Droid Sans', sans-serif; /*Droid Sans is available from Google fonts*/
+font-size:.9em;
+text-align: center;
+color: #495a62;
+}
+
+
+#program
+{
+	padding:10px;
+	margin:10px;
+	overflow:auto;
+}

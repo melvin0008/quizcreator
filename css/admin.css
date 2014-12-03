@@ -1,0 +1,159 @@
+body{
+	margin:0px;
+	background-image: url('../images/gray.jpg');
+}
+.wrapper{
+background-image: url('../images/gray.jpg');
+text-align:left;
+font-family:Arial;
+font-size:20px;
+margin-right:200px;
+display:block;
+}
+
+#content{
+height:530px;
+width:700px;
+border:1;
+margin-left:100px;
+
+}
+footer{
+background-color:#880015;
+}
+
+#top{
+text-align:left;
+font-family:Arial;
+font-size:20px;
+display:-webkit-box;
+-webkit-box-pack:center;
+background-image: url('../images/darkgray.jpg');
+}
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------------- Header ------------------------*/
+.header {
+	height:70px;
+	margin:0 0 41px;
+}
+.header div a {
+	outline:none;
+}
+.header div {
+	margin:0 auto;
+	padding:0 30px;
+	position:relative;
+	width:900px;
+}
+/*.header div a#logo {
+	display:block;
+	float:left;
+	height:103px;
+	margin:0 28px 0 0;
+	width:272px;
+}
+.header div a#logo img {
+	border:0;
+}*/
+.header div ul {
+	list-style:none;
+	margin:0;
+	margin-left: 200px;
+	overflow:hidden;
+	padding:0px 70px 0;
+}
+.header div ul li:first-child {
+	margin:0;
+}
+
+.header div ul li {
+	float:left;
+	height:51px;
+	margin:0 0 0 20px;
+	padding:0 10px;
+	text-align:center;
+}
+.header div ul li.selected a {
+	color:#fff;
+	text-shadow:0 -1px 0 #010101;
+}
+.header div ul li a {
+	color:#e8e1aa;
+	display:block;
+	font-size:16px;
+	font-weight:700;
+	line-height:50px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #524437;
+	text-transform:uppercase;
+}
+.header div ul li a:hover {
+	color:#fff;
+}
+
+.header div ul li a span {
+	font-size:20px;
+}
+
+/*HEADER*/
+#first {
+}
+
+#upload{
+float:right;
+}
+
+.h{
+	font-size: 50px;
+	font-family: 'ChunkFive Roman';
+	src: url('../fonts/Chunkfive.otf');
+	padding-top: 5px;
+	color:#ddd;
+	font-weight: normal;
+	font-style: normal;
+}
+.l280
+{
+	margin-left:280px; 
+}
+a {
+	color: #ddd;
+	text-decoration: none;
+}
+a:hover
+{
+	color:#fff;
+	text-decoration: underline;
+}
+.logout
+{
+	float: right;
+	font-size: 20px;
+}
+.home
+{
+	float: left;
+	font-size: 20px;
+}
+.dark{
+	color: #555;
+}
+#up
+{
+	margin-top: 70px;
+	margin-left: 50px;
+}
+
+#tname{
+	margin-top: 20px;
+	text-align: center;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
