@@ -6,4 +6,5 @@ Create quizzes and track the progrss of candidates
 
 
 Todo :
-Import from Bitbucket
+Change frontend using Angular JS.
+Port to AWS
