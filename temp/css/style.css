@@ -1,0 +1,1403 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/
+body {
+	background:url(../images/bg-body.jpg);
+	margin:0;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+p a {
+	color:#707070!important;
+}
+p a:hover {
+	color:#525252!important;
+}
+/*------------------------- Layout styles ------------------------*/
+@font-face {
+	font-family: 'forumregular';
+	src: url('../fonts/forum-regular-webfont.eot');
+	src: url('../fonts/forum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/forum-regular-webfont.woff') format('woff'), url('../fonts/forum-regular-webfont.ttf') format('truetype'), url('../fonts/forum-regular-webfont.svg#forumregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------------- Header ------------------------*/
+.header {
+	background:url(../images/bg-header.png) repeat-x;
+	height:168px;
+	margin:0 0 41px;
+}
+.header div a {
+	outline:none;
+}
+.header div {
+	margin:0 auto;
+	padding:0 30px;
+	position:relative;
+	width:900px;
+}
+.header div a#logo {
+	display:block;
+	float:left;
+	height:103px;
+	margin:0 28px 0 0;
+	width:272px;
+}
+.header div a#logo img {
+	border:0;
+}
+.header div ul {
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:89px 0 0;
+}
+.header div ul li:first-child {
+	margin:0;
+}
+.header div ul li.selected {
+	background:url(../images/border-horizontal.gif) repeat-x left top #252525;
+}
+.header div ul li {
+	float:left;
+	height:51px;
+	margin:0 0 0 15px;
+	padding:0 10px;
+	text-align:center;
+}
+.header div ul li.selected a {
+	color:#fff;
+	text-shadow:0 -1px 0 #010101;
+}
+.header div ul li a {
+	color:#e8e1aa;
+	display:block;
+	font-size:16px;
+	font-weight:700;
+	line-height:50px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #524437;
+	text-transform:uppercase;
+}
+.header div ul li a:hover {
+	color:#fff;
+}
+.header div div {
+	background:url(../images/interface.png) no-repeat -10px -606px;
+	height:73px;
+	padding:0;
+	position:absolute;
+	right:30px;
+	text-align:center;
+	top:0;
+	width:302px;
+}
+.header div div p {
+	color:#fff;
+	display:block;
+	font-size:16px;
+	font-weight:700;
+	margin:18px 0 0;
+	text-shadow:0 -1px 0 #030002;
+	text-transform:uppercase;
+}
+.header div ul li a span {
+	font-size:20px;
+}
+.header div div p > span {
+	font-size:20px;
+	display: inline;
+}
+.header div div p > span > span {
+	color:#E17537;
+	display:inline;
+	font-size:19px;
+	margin:0;
+	width:auto;
+	padding:0;
+ *margin-right:4px; /* Needed for IE7 */
+}
+/*------------------------- Body ------------------------*/
+.body div {
+	background:url(../images/shadow.png) no-repeat left bottom;
+	border:0;
+	margin:0 auto;
+	padding:0 30px 42px;
+	width:900px;
+}
+.body div a {
+	outline:none;
+}
+.body div div.featured {
+	background:url(../images/shadow.png) no-repeat left bottom;
+	border-radius:0 0 0 0!important;
+	overflow:hidden;
+	padding:0 0 42px!important;
+	width:auto;
+}
+.body div div.featured img {
+	border:2px solid #a1ad7f;
+	float:left;
+}
+.body div div.featured div {
+	background:url(../images/frame1.gif) no-repeat center 12px #757e63;
+	border:0 none!important;
+	border-radius:0 0 0 0!important;
+	float:left;
+	height:379px;
+	padding:0!important;
+	text-align:center;
+	width:300px;
+}
+.body div div.featured div div {
+	background:url(../images/frame2.gif) no-repeat center 349px;
+	width:auto!important;
+}
+.body div div.featured div div h3 {
+	background:url(../images/interface.png) no-repeat -1px -680px;
+	border:0 none;
+	color:#534a39;
+	font-size:16px;
+	height:52px;
+	line-height:42px;
+	margin:24px auto 25px;
+	width:281px;
+	text-indent: 40px;
+}
+.body div div.featured div div h3 span {
+	font-size:20px;
+}
+.body div div.featured div div p {
+	border:0!important;
+	color:#fff!important;
+	line-height:24px!important;
+	padding:0 30px!important;
+	text-align:justify!important;
+	font-family: 'forumregular';
+	letter-spacing:0.028em;
+	font-weight:normal;
+	font-size:18px
+}
+.body div div.featured div div a {
+	background:url(../images/interface.png) no-repeat -10px -855px;
+	color:#fff;
+	display:block;
+	float:none;
+	font-size:14px;
+	font-weight:normal;
+	height:41px;
+	line-height:42px;
+	margin:68px auto 0;
+	padding:0;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #27221c;
+	width:160px;
+	letter-spacing:0.075em;
+}
+.body div div.featured div div a:hover {
+	background:url(../images/interface.png) no-repeat -266px -751px;
+	color:#fff!important;
+}
+.body div div {
+	background:none;
+	background-color:#e8e1ab;
+	border-radius:5px;
+	float:none!important;
+	overflow:hidden;
+	padding:17px 0!important;
+}
+.body div div div {
+	background:none;
+	border:1px solid #717a5d;
+	border-radius:0;
+	padding:0!important;
+	width:880px;
+}
+.body div div div div {
+	border-style:solid none;
+	margin:2px 0;
+}
+.body div div div div div.section {
+	border:0;
+	float:left;
+	margin:0;
+	padding:0!important;
+	width:588px;
+	border-color: #717A5D;
+	border-style: none solid none none;
+	border-width: 1px;
+}
+.body div div div div div.section h2 {
+	border-color:#717a5d;
+	border-width:1px;
+	color:#756752;
+	font-size:30px!important;
+	height:73px;
+	line-height:77px;
+	margin:2px auto;
+	text-align:center;
+	text-shadow:0 1px 0 #fff7c6;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:2px 0 0 !important;
+}
+.body div div div div div.section p {
+	border-color:#6d765b;
+	border-style:solid none none;
+	border-width:1px;
+	color:#6d765b;
+	line-height:24px;
+	margin:2px 0 0;
+	padding:24px 15px 0;
+	text-align:justify;
+	font-family: 'forumregular';
+	font-size:20px;
+	letter-spacing:0.028em;
+	color:#707070;
+}
+.body div div div div.section > p {
+	font-size:20px;
+}
+.body div div div div div.section p a {
+	color:#707070;
+	display:inline;
+	float:none;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+	text-decoration:underline;
+	font-family: 'forumregular';
+}
+.body div div div div div.section ul {
+	float:left;
+	list-style:none;
+	margin:25px 0 28px;
+	padding:0 0 0 15px;
+	width:250px;
+}
+.body div div div div div.section ul.last {
+	padding:0 0 0 15px;
+	margin: 25px 0 0 44px;
+}
+.body div div div div div.section ul li {
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	border-style:none;
+	margin:11px 0 0;
+	padding:0 0 0 20px;
+}
+.body div div div div div.section ul li p {
+	color:#707070;
+	display:inline;
+	float:none;
+	font-size:16px;
+	letter-spacing:0.028em;
+	line-height:24px;
+	text-decoration:none;
+	font-family: 'forumregular';
+	border:0;
+	margin:0;
+	padding:0;
+}
+.body div div div div div {
+	margin: 0;
+	width: 290px;
+	float:left!important;
+	border:0;
+}
+.body div div div h3 {
+	color:#756555;
+	font-size:14px;
+	margin:0;
+	padding:9px 0 5px 17px;
+	text-align:left;
+	line-height:24px;
+	font-weight:normal;
+	padding-left: 17px;
+	letter-spacing:0.028em;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+}
+.body div div div ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.body div div div ul li:first-child {
+	margin:2px 0 0;
+}
+.body div div div ul li {
+	border-color:#717a5d;
+	border-style:solid none none;
+	border-width:1px;
+	overflow:hidden;
+}
+.body div div div ul li.last {
+	border-color:#717a5d;
+	border-style:solid none;
+	border-width:1px;
+}
+.body div div div ul li div {
+	background:none;
+	width:290px!important;
+}
+.body div div div ul li div span {
+	color:#717A5D;
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	margin:12px 0 0 17px;
+	font-family: 'forumregular';
+}
+.body div div div ul li div:first-child p {
+	border:0 none!important;
+	color:#707070;
+	font-size:16px!important;
+	letter-spacing:0.028em;
+	line-height:24px;
+	margin:2px 0 20px;
+	padding:6px 20px 0!important;
+	font-family: 'forumregular';
+}
+.body div div div a {
+	color:#756752;
+	display:block;
+	float:right;
+	font-size:16px;
+	margin:0 10px 0 0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	padding:9px 0 0;
+	text-decoration:none;
+	font-family: 'forumregular';
+}
+.body div div div a:hover {
+	color:#756752!important;
+}
+.body div div div div.about, .body div div div div.programs, .body div div div div.competition, .body div div div div.activities, .body div div div div.application, .body div div div div.staff, .body div div div div.register, .body div div div div.staff, .body div div div div.blog, .body div div div div.events {
+	border-bottom: 0 none;
+	margin: 2px 0 0;
+	padding: 0 0 2px !important;
+	width: auto;
+}
+.body div div div div.about {
+	border:0;
+}
+.body div div div div.about div:first-child {
+	border-style:solid none none;
+	padding:0!important;
+	width:auto;
+}
+.body div div div div.section h2 {
+	margin:2px 0;
+	padding-bottom:3px;
+	width:589px!important;
+}
+.body div div div div.about div:first-child h2, .body div div div div.programs h2, .body div div div div.competition h2, .body div div div div.activities h2, .body div div div div.application h2, .body div div div div.staff h2, .body div div div div.register h2, .body div div div div.blog h2, .body div div div div.events h2, .body div div div div div.section h2, .body div.contact div div div.contact h2 {
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:19px 0 18px;
+	margin:0 0 2px !important;
+}
+.body div div div div.about div:first-child div {
+	border-style:solid none solid;
+	padding:32px 30px 0!important;
+	width:auto;
+	border-width: 1px;
+	font-family: 'forumregular';
+	font-size:16px;
+	line-height:24px;
+	border-color: #717A5D;
+}
+.body div div div div.about div:first-child p {
+	border:0 none;
+	color:#707070;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:4px 0 25px;
+	padding:0;
+	font-family: 'forumregular';
+}
+.body div div div div.about div:first-child p a {
+	color: #E17439;
+	display: inline;
+	float: none;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.body div div div div.about div {
+	border-style:none none solid;
+	padding:32px 30px!important;
+	width:820px;
+	border-width:1px;
+	border-color: #717A5D;
+}
+.body div div div div.about div:first-child img {
+	margin-bottom:27px;
+}
+.body div div div div.about div div:first-child {
+	border:0!important;
+	margin-right:40px;
+	width:412px;
+}
+.body div div div div.about div div {
+	border:0;
+	float:left;
+	padding:0!important;
+	width:368px;
+}
+.body div div div div.about div div p {
+	border:0 none;
+	color:#707070;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:5px 0 24px;
+	padding:0;
+	font-family: 'forumregular';
+}
+.body div div div div.about div div p a {
+	font-weight:400;
+	text-decoration:underline;
+	display:inline;
+	margin:0;
+	padding:0;
+	float:none;
+}
+.body div div div div.programs div.first, .body div div div div.competition div.first, .body div div div div.activities div.first, .body div div div div.staff div.first {
+	border-style:solid solid solid none;
+	width:248px;
+}
+.body div div div div.programs div, .body div div div div.competition div, .body div div div div.activities div, .body div div div div.staff div, .body div div div div.blog div, .body div div div div.events div {
+	border-style:solid none;
+	border-width:1px;
+	min-height:791px;
+	padding:33px 20px 0!important;
+	width:551px;
+	border-color:#717a5d;
+}
+.body div div div div.competition div h3.title {
+	margin:48px 0 0;
+}
+.body div div div div.programs div.first ul, .body div div div div.competition div.first ul, .body div div div div.activities div.first ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:252px;
+}
+.body div div div div.programs div.first ul li, .body div div div div.competition div.first ul li, .body div div div div.activities div.first ul li {
+	background:none;
+	margin:0;
+	padding:0;
+	width:auto;
+	border:0;
+}
+.body div div div div.programs div.first ul li.selected a {
+	color:#fff!important;
+}
+.body div div div div.programs div.first ul li.selected a:hover {
+	color:#fff!important;
+}
+.body div div div div.programs div.first ul li a {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size:18px!important;
+	line-height:24px;
+}
+.body div div div div.programs div.first ul li a:hover, .body div div div div.activities div.first ul li a:hover, .body div div div div.competition div.first ul li a:hover {
+	color:#e9e1ac!important;
+	text-decoration:none;
+}
+.body div div div div.programs div.first ul li.selected a, .body div div div div.competition div.first ul li.selected a, .body div div div div.activities div.first ul li.selected a {
+	background:url(../images/interface.png) no-repeat -10px -803px!important;
+	height:42px;
+	text-shadow:0 -1px 0 #99562e;
+	width:252px;
+}
+.body div div div div.programs div.first ul li.selected a:hover, .body div div div div.competition div.first ul li.selected a:hover, .body div div div div.activities div.first ul li.selected a:hover {
+	color:#fff;
+}
+.body div div div div.programs div.first ul li a, .body div div div div.competition div.first ul li a, .body div div div div.activities div.first ul li a {
+	background:url(../images/interface.png) no-repeat -10px -751px!important;
+	color:#fff;
+	display:block;
+	font-size:21px;
+	font-weight:700;
+	height:42px;
+	line-height:36px;
+	margin:0 0 18px;
+	padding:0;
+	text-align:center;
+	text-shadow:0 -1px 0 #424242;
+	width:252px;
+}
+.body div div div div.programs div h3, .body div div div div.competition div h3, .body div div div div.activities div h3, .body div div div div.staff div h3 {
+	border:0 none;
+	font-size:21px;
+	margin:0;
+	padding:0;
+}
+.body div div div div.programs div p, .body div div div div.competition div p, .body div div div div.activities div p, .body div div div div.staff div p, .body div div div div.blog div p, .body div div div div.events div p {
+	border:0;
+	font-size:16px;
+	margin:4px 0 24px;
+	padding:0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-family: 'forumregular';
+	color:#707070;
+}
+.body div div div div.programs div p a, .body div div div div.competition div p a, .body div div div div.activities div p a {
+	display: inline;
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.body div div div div.competition div.first ul {
+	width:252px;
+}
+.body div div div div.competition div ul {
+	margin:5px 0 12px;
+	overflow:hidden;
+	padding:0;
+	width: auto;
+}
+.body div div div div.competition div ul li {
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	float:left;
+	margin:0 0 11px;
+	padding:0 0 0 20px;
+	width:255px;
+	border:0;
+}
+.body div div div div.competition div ul li p {
+	margin:0;
+	padding: 0 14px 0 0;
+}
+.body div div div div.competition div ul li a {
+	background:none;
+	margin:0;
+	padding:0;
+	width:auto;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 18px !important;
+}
+.body div div div div.competition div.first ul li {
+	background:none;
+}
+.body div div div div.competition div.first ul li.selected a:hover {
+	color:#fff!important;
+}
+.body div div div div.activities div.first ul li.selected a:hover {
+	color:#fff!important;
+}
+.body div div div div.activities div ul {
+	margin:0;
+	padding: 14px 0 0;
+}
+.body div div div div.activities div ul li {
+	border:0;
+	background:url(../images/interface.png) no-repeat -362px 9px;
+	padding:0 0 0 20px;
+}
+.body div div div div.activities div.first ul li a {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 18px !important;
+}
+.body div div div div.activities div p {
+	margin: 6px 0 0;
+}
+.body div div div div.activities div ul li a {
+	margin:0;
+	padding:0;
+}
+.body div div div div.application form, .body div div div div.register form {
+	border-color:#717A5D;
+	border-style:solid none;
+	border-width:1px;
+	margin:0;
+	overflow:hidden;
+	padding:24px 20px 40px;
+	width:840px;
+}
+.body div div div div.register form textarea#address {
+	background:url(../images/interface.png) no-repeat -10px -517px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:65px;
+	margin:0 0 1px;
+	overflow:auto;
+	padding:7px 5px;
+	width:415px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div div div div.register form div {
+	width:auto;
+}
+.body div div div div.application form div:first-child {
+	margin-bottom:52px;
+	width:435px!important;
+}
+.body div div div div.application form div:first-child td {
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	height:auto;
+	margin:0 10px 0 0;
+	text-transform:uppercase;
+	width:auto;
+}
+.body div div div div.application form div:first-child td, .body div div div div.register form div:first-child td, .body div div div div.contact form td {
+	padding:0 0 15px;
+	vertical-align:top;
+}
+.body div div div div.application form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	width:135px;
+	line-height: 30px;
+}
+.body div div div div.register form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:16px;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	width:229px;
+	line-height: 31px;
+}
+.body div div div div.register form div:first-child label.age {
+	margin:0 0 0 -140px;
+	width:auto;
+}
+.body div div div div.application form div:first-child input {
+	background:url(../images/interface.png) no-repeat -10px -946px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	padding:7px 5px;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div div div div.register form div:first-child input, .body div div div div.contact form input {
+	background:url(../images/interface.png) no-repeat -10px -1026px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	padding:7px 5px;
+	width:410px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div div div div.register form div:first-child input#duration, .body div div div div.register form div:first-child input#num-of-children, .body div div div div.register form div:first-child input#name-of-child {
+	background:url(../images/interface.png) no-repeat -10px -986px;
+	width:260px;
+}
+.body div div div div.register form div:first-child input#age {
+	background:url(../images/interface.png) no-repeat -301px -690px;
+	float:left;
+	margin:0 0 0 -84px;
+	padding:7px 5px;
+	width:60px;
+}
+.body div div div div.application form div:first-child input#gender1 {
+	background:none;
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	height:auto;
+	margin:0 10px 0 0;
+	text-transform:uppercase;
+	width:auto;
+}
+.body div div div div.register form div:first-child a img {
+	border:0;
+}
+.body div div div div.register form div input#submit {
+	background:url(../images/interface.png) no-repeat -276px -404px;
+	cursor:pointer;
+	float:right;
+	height:32px;
+	margin:0 0 65px;
+	padding:0 0 3px;
+	width:132px;
+	text-shadow:0 -1px 0 #99562e;
+	font-size:16px;
+	line-height:24px;
+	text-transform:uppercase;
+	color:#fff;
+	font-family:inherit;
+	letter-spacing:0.028em;
+}
+.body div div div div.register form div input#submit:hover {
+	background:url(../images/interface.png) no-repeat -276px -457px;
+}
+.body div div div div.application form div:first-child input#gender2 {
+	background:none;
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	height:auto;
+	margin:0 10px 0 20px;
+	text-transform:uppercase;
+	width:auto;
+}
+.body div div div div.application form div {
+	border:0;
+	float:left;
+	width:405px;
+}
+.body div div div div.application form div td {
+	padding:0 0 12px;
+}
+.body div div div div.application form div label {
+	color:#776855;
+	display:inline-block;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	width:130px;
+}
+.body div div div div.application form input#application-submit {
+	background:url(../images/interface.png) no-repeat -189px -859px;
+	border:0 none;
+	clear:both;
+	cursor:pointer;
+	display:block;
+	height:32px;
+	margin:0 auto;
+	width:222px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #99562E;
+	text-transform: uppercase;
+	color:#fff;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size:16px;
+	line-height:24px;
+	padding:0 0 3px;
+}
+.body div div div div.application form input#application-submit:hover {
+	background:url(../images/interface.png) no-repeat -215px -1066px;
+}
+.body div div div div.application textarea#address {
+	background:url(../images/interface.png) no-repeat -10px -404px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:89px;
+	overflow:auto;
+	padding:7px 5px;
+	width:250px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div div div div.application form div input {
+	background:url(../images/interface.png) no-repeat -10px -946px;
+	border:0;
+	padding:7px 5px;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #776855;
+}
+.body div.applications {
+	margin-bottom:335px;
+}
+.body div.register {
+	margin-bottom:195px;
+}
+.body div.register div h2, .events h2 {
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px!important;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	padding:19px 0 18px!important;
+	margin-bottom:2px!important;
+}
+.body div div div div.staff div.first {
+	padding:29px 20px 4px !important;
+}
+.body div div div div.staff div.first h3:first-letter, .body div div div div.staff div.first h3 span {
+	font-size:26px;
+	color:#756752;
+}
+.body div div div div.staff div.first h3 {
+	border:0;
+	color:#776855;
+	display:inline-block;
+	font-size:20px;
+	font-weight:700;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+}
+.body div div div div.staff div.first form {
+	margin:13px 0 0;
+}
+.body div div div div.staff div.first form input:first-child {
+	margin:0 0 15px;
+}
+.body div div div div.staff div.first form input {
+	background:url(../images/interface.png) no-repeat -10px -906px;
+	border:0;
+	color:#7c8668;
+	font-size:16px;
+	font-style:italic;
+	margin:0 0 4px;
+	padding:7px 5px;
+	text-shadow:1px 1px 1px #d3d7cd;
+	width:240px;
+	font-family: 'forumregular';
+}
+.body div div div div.staff div.first form a {
+	background: none repeat scroll 0 0 transparent;
+	color: #707070;
+	float: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-indent: 0;
+	text-transform: none;
+	line-height:24px;
+	letter-spacing:0.028em;
+	width: auto;
+	font-family: 'forumregular';
+	text-shadow:none;
+}
+.body div div div div.staff div.first form a:hover {
+	color:#707070!important;
+}
+.body div div div div.staff div.first form input#submit {
+	background:url(../images/interface.png) no-repeat -333px -603px;
+	cursor:pointer;
+	float:right;
+	height:32px;
+	margin:4px 0 0;
+	padding:0 0 3px;
+	width:92px;
+	font-size:16px;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 -1px 0 #99562e;
+	font-style:normal;
+}
+.body div div div div.staff div.first form input#submit:hover {
+	background:url(../images/interface.png) no-repeat -333px -643px;
+}
+.body div div div div.staff div p {
+	margin: 14px 0 26px;
+}
+.body div div div div.staff div a {
+	background:url(../images/interface.png) no-repeat -293px -904px;
+	float:none;
+	height:29px;
+	margin:54px auto;
+	width:132px;
+	letter-spacing:0.028em;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 -1px 0 #99562e;
+	font-style:normal;
+	text-align:center;
+	padding:3px 0 0;
+}
+.body div div div div.staff div a:hover {
+	background:url(../images/interface.png) no-repeat -293px -948px;
+	color:#fff!important;
+}
+.body div div div div.staff div ul {
+	margin:4px 0 27px;
+	padding:0;
+	width:auto;
+}
+.body div div div div.staff div ul li {
+	border:0;
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	padding:0 0 0 20px;
+	margin:0 0 7px;
+}
+.body div div div div.blog div.first, .body div div div div.events div.first {
+	border-style:solid none;
+	min-height:720px;
+	padding:20px 20px 61px!important;
+	width:588px;
+	border-color: #717A5D;
+}
+.body div div div div.blog div p, .body div div div div.events div p {
+	color:#707070;
+	text-align: justify;
+}
+.body div div div div.blog div.first h3 {
+	margin-bottom:21px!important;
+}
+.body div div div div.blog div p {
+	margin:5px 0 24px;
+}
+.body div div div div.blog div p a {
+	margin:0;
+	padding:0;
+	display:inline;
+	float:none;
+	text-decoration:underline;
+}
+.body div div div div.events div p a {
+	display: inline;
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.body div div div div.events div p a:hover {
+	color:#515151;
+}
+.body div div div div.blog div.first h3, .body div div div div.events div.first h3 {
+	margin: 13px 0 23px;
+}
+.body div div div div.blog div h3, .body div div div div.events div h3 {
+	margin-bottom:30px;
+}
+.body div div div div.blog div ul, .body div div div div.events div ul {
+	margin:0;
+	padding:0;
+	width:251px;
+}
+.body div div div div.blog div ul li, .body div div div div.events div ul li {
+	background:none;
+	border-style:none none solid;
+	border-width:1px;
+	margin:0;
+	padding:0;
+}
+.body div div div div.blog div ul li div, .body div div div div.events div ul li div {
+	border:0;
+	min-height:0;
+	padding:25px 20px!important;
+	width:211px!important;
+}
+.body div div div div.blog div ul li div h3 {
+	margin:4px 0 26px;
+}
+.body div div div div.blog div ul li div p {
+	margin:6px 0 1px!important;
+	padding:0!important;
+}
+.body div div div div.blog div ul li div ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:auto;
+}
+.body div div div div.blog div ul li div ul li {
+	border:0;
+}
+.body div div div div.blog div ul li div ul li a {
+	padding:0;
+	margin:0;
+	float:none;
+}
+.body div div div div.blog div ul li div ul li a:hover {
+	text-decoration:underline;
+}
+.body div div div div.blog div ul li div span, .body div div div div.events div ul li div span {
+	font-size:16px;
+	margin: 3px 0 0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-family: 'forumregular';
+}
+.body div div div div.events div ul li p {
+	letter-spacing:0;
+	margin:6px 0 0 !important;
+	padding:0!important;
+}
+.body div div div div.blog div ul li div a {
+	color:#707070;
+	display:block;
+	margin:0;
+	padding:0;
+}
+.body div div div div.blog.body div div div div.events {
+	width:880px;
+}
+.body div.contact {
+	margin-bottom:190px;
+}
+.body div.contact div.address {
+	border-style:solid none;
+	border-width:1px;
+	float:none!important;
+	padding:32px 20px 13px !important;
+	width:840px;
+	border-color: #717A5D;
+}
+.body div.contact div.address span {
+	color:#776855;
+	float:left;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	line-height:24px;
+	width:182px;
+	margin: 2px 0 0;
+}
+.body div.contact div.address span > span {
+	font-size:21px;
+	width:auto;
+	line-height:22px;
+	float: none;
+}
+.body div.contact div.address p {
+	border:0;
+	color:#7c8668;
+	float:left;
+	font-size:16px;
+	font-weight:700;
+	margin:5px 0 12px;
+	padding:0;
+	text-transform:uppercase;
+	width:655px;
+}
+.body div.contact form {
+	border-color:#717A5D;
+	border-style:none none solid;
+	border-width:1px;
+	clear:both;
+	margin:0 0 2px;
+	overflow:hidden;
+	padding:0 0 20px;
+	width:auto;
+}
+.body div.contact form table {
+	margin:0 20px;
+}
+.body div.contact h3 {
+	border:0 none;
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	margin:0;
+	padding:28px 0 20px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.body div.contact h3 span {
+	font-size:21px;
+}
+.body div.contact form label {
+	color:#776855;
+	display:inline-block;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	width:172px;
+	line-height: 30px;
+}
+.body div.contact form textarea {
+	background:url(../images/interface.png) no-repeat -10px -244px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:136px;
+	overflow:auto;
+	padding:7px 5px;
+	width:410px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div.contact form input#submit {
+	background:url(../images/interface.png) no-repeat -333px -603px;
+	float:right;
+	height:32px;
+	margin-right:263px;
+	padding:0;
+	width:92px;
+	cursor:pointer;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 -1px 0 #99562e;
+	font-style:normal;
+	text-align:center;
+	padding:0 0 3px;
+	font-size:16px;
+}
+.body div.contact form input#submit:hover {
+	background:url(../images/interface.png) no-repeat -333px -643px;
+}
+.body div.contact div div div.contact {
+	border-bottom: 0 none;
+	margin-bottom: 0;
+	width: auto;
+}
+.body div div.featured div div h3 span, .body div div div div.application form div:first-child label span, .body div div div div.application form div:first-child td span, .body div div div div.register form div:first-child td span, .body div.contact div.address span span, .body div.contact form label span, .body div.contact h3 span, .body div div div div.application form div label span {
+	font-size:20px;
+}
+.body div div div div div.section ul li:first-child, .body div div div div.competition div ul li:first-child, .body div div div div.register form div:first-child a, .body div div div div.staff div ul li p {
+	margin:0;
+}
+.body div div div a:hover, .body div div div div.activities div ul li a:hover, .body div div div div.programs div ul li a:hover, .body div div div div.competition div ul li a:hover {
+	color:#E17537;
+}
+.body div div div div.about div:first-child h3 span, .body div div div div.about div div h3 span, .body div div div div.programs div h3:first-letter, .body div div div div.competition div h3:first-letter, .body div div div div.activities div h3:first-letter, .body div div div div.staff div h3:first-letter, .body div div div div.blog div h3:first-letter, .body div div div div.events div h3:first-letter {
+	font-size:27px;
+	color:#7c8668;
+	font-size:26px;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-weight:normal;
+}
+.body div div div div.about div:first-child h3, .body div div div div.programs div h3, .body div div div div.competition div h3, .body div div div div.activities div h3, .body div div div div.staff div h3, .body div div div div.activities div h3, .body div div div div.blog div h3, .body div div div div.events div h3, .body div div div div.about div div h3 {
+	border:0;
+	color:#7c8769;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.body div div div div.programs div ul li a:first-letter, .body div div div div.competition div ul li a:first-letter, .body div div div div.activities div ul li a:first-letter, .body div div div div.staff div.first h3 span {
+	font-size:25px;
+}
+.body div div div div.blog div, .body div div div div.events div {
+	border-width:1px;
+	border-style:solid none solid solid;
+	padding:0 0 10px!important;
+	width:251px;
+	border-color: #717A5D;
+}
+/*------------------------- Footer ------------------------*/
+.footer {
+	background-color:#252525;
+	border-color:#1f1a14;
+	border-style:solid none none;
+	border-width:1px;
+}
+.footer div a {
+	outline:none;
+}
+.footer div:first-child {
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 30px 7px;
+	width:900px;
+}
+.footer div:first-child div:first-child {
+	background:url(../images/interface.png) no-repeat -10px 0;
+	height:234px;
+	margin:22px 0 0;
+	width:285px;
+}
+.footer div:first-child div:first-child h3 {
+	color:#7B8668;
+	font-size:22px;
+	margin:35px 0 0 5px;
+	letter-spacing:0.075em;
+	font-weight:normal;
+}
+.footer div:first-child div:first-child p {
+	color:#e9e1ac;
+	font-size:16px;
+	font-weight:normal;
+	letter-spacing:0.028em;
+	line-height:24px;
+	margin:25px 0 0 5px;
+	padding:0;
+	text-align:left;
+	width:auto;
+	font-family: 'forumregular';
+}
+.footer div:first-child div:first-child form {
+	margin:24px 0 0 5px;
+	overflow:hidden;
+}
+.footer div:first-child div:first-child input:first-child {
+	background:url(../images/interface.png) no-repeat -10px -1066px;
+	color:#fff;
+	cursor:auto;
+	font-size:16px;
+	font-style:italic;
+	height:auto;
+	margin:0;
+	padding:7px 5px 5px;
+	line-height:0;
+	text-shadow:0 1px 0 #848973;
+	width:190px;
+	cursor:text;
+	font-family: 'forumregular';
+	letter-spacing:0.028em;
+	text-transform:capitalize;
+}
+.footer div:first-child div:first-child input:first-child:hover {
+	background:url(../images/interface.png) no-repeat -10px -1066px;
+}
+.footer div:first-child div:first-child input {
+	background:url(../images/interface.png) no-repeat -380px -684px;
+	border:0;
+	cursor:pointer;
+	float:left;
+	height:30px;
+	margin:0 0 0 10px;
+	padding:0;
+	width:50px;
+	font-size:16px;
+	line-height:24px;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	text-shadow:0 -1px 0 #99562e;
+	color:#fff;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.footer div:first-child div:first-child input:hover {
+	background:url(../images/interface.png) no-repeat -380px -717px;
+}
+.footer div:first-child div {
+	float:left;
+	margin:0 0 0 45px;
+	width:310px;
+}
+.footer div:first-child div h4 {
+	color:#6B755A;
+	font-size:18px;
+	font-weight:400;
+	margin:35px 0 15px;
+	text-shadow:0 -1px 0 #141615;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer div:first-child div ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.footer div:first-child div ul li:first-child {
+	background:none;
+	padding:0 0 11px;
+}
+.footer div:first-child div ul li {
+	background:url(../images/border-horizontal.gif) repeat-x left top;
+	padding:3px 0 11px;
+	position:relative;
+}
+.footer div:first-child div ul li p {
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:auto;
+}
+.footer div:first-child div ul li p a {
+	color:#533030;
+	font-size:16px;
+	letter-spacing:0.028em;
+	line-height:24px;
+	font-family: 'forumregular';
+	text-decoration:none;
+}
+.footer div:first-child div ul li p a:hover {
+	color:#aaaaaa!important;
+}
+.footer div:first-child div ul li span {
+	bottom:10px;
+	color:#6B755A;
+	font-size:16px;
+	font-weight:normal;
+	font-family: 'forumregular';
+	letter-spacing:0.028em;
+	position:absolute;
+	line-height:24px;
+	right:0;
+}
+.footer div:first-child div.connect {
+	margin-left: 70px;
+	width: 130px;
+}
+.footer div:first-child div.connect a:hover {
+	color:#E8E1AB;
+}
+.footer div:first-child div.connect a {
+	color:#828282;
+	display:block;
+	font-size:14px;
+	font-weight:700;
+	text-align:center;
+	line-height:24px;
+	letter-spacing:0.025em;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer div:first-child div.connect a:hover {
+	color:#aaaaaa;
+}
+.footer div:first-child div.connect a.facebook {
+	background:url(../images/icons.png) no-repeat 0 -98px;
+	height:22px;
+	margin:22px 0 0 2px;
+	padding-left:40px;
+	width:30px;
+}
+.footer div:first-child div.connect a.facebook:hover {
+	background:url(../images/icons.png) no-repeat 0 -123px;
+}
+.footer div:first-child div.connect a.twitter {
+	background:url(../images/icons.png) no-repeat 0 0;
+	height:20px;
+	margin:45px 0 0 2px;
+	padding-left:40px;
+	width:30px;
+}
+.footer div:first-child div.connect a.twitter:hover {
+	background:url(../images/icons.png) no-repeat 0 -23px;
+}
+.footer div:first-child div.connect a.google {
+	background:url(../images/icons.png) no-repeat 0 -46px;
+	height:23px;
+	line-height: 26px;
+	margin:34px 0 0 2px;
+	padding-left:40px;
+	width:30px;
+}
+.footer div:first-child div.connect a.google:hover {
+	background:url(../images/icons.png) no-repeat 0 -72px;
+}
+.footer div {
+	background:url(../images/border-horizontal.gif) repeat-x left top;
+}
+.footer div p {
+	color:#6b7459;
+	font-size:16px;
+	margin:0 auto;
+	letter-spacing:0.028em;
+	padding:10px 60px 14px 0;
+	text-align:right;
+	width:900px;
+	font-family: 'forumregular';
+}
